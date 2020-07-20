@@ -15,3 +15,5 @@ Imports:
     topicmodels,
     stringi,
     LDAvis
+URL: https://github.com/Jpowell94/dhtk
+BugReports: https://github.com/Jpowell94/dhtk/issues
