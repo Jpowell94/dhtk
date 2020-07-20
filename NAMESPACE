@@ -2,4 +2,8 @@
 
 export(dhtk_build_corpus)
 export(dhtk_build_json)
+import(tm)
+importFrom(LDAvis,createJSON)
 importFrom(magrittr,"%>%")
+importFrom(stringi,stri_count)
+importFrom(topicmodels,posterior)

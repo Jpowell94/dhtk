@@ -7,25 +7,26 @@
 #' @return A clean {\link{VCorpus}} object, ready to be modeled
 #'
 #' @importFrom magrittr "%>%"
+#' @import tm
 #' @export
 dhtk_build_corpus <- function(x) {
 
 
-  temp_corp <- tm::Corpus(tm::VectorSource(x))
+  temp_corp <- Corpus(VectorSource(x))
 
-  corp_clean <- tm::tm_map(temp_corp, tm::content_transformer(tolower)) %>%
-                  tm::tm_map(tm::removeWords, tm::stopwords("english")) %>%
-                  tm::tm_map(tm::removeNumbers) %>%
-                  tm::tm_map(tm::removePunctuation) %>%
-                  tm::tm_map(tm::stripWhitespace)
+  corp_clean <- tm_map(temp_corp, content_transformer(tolower)) %>%
+                  tm_map(removeWords, stopwords("english")) %>%
+                  tm_map(removeNumbers) %>%
+                  tm_map(removePunctuation) %>%
+                  tm_map(stripWhitespace)
 
   rm(temp_corp)
 
-  temp_dtm <- tm::DocumentTermMatrix(corp_clean)
+  temp_dtm <- DocumentTermMatrix(corp_clean)
 
   rm(corp_clean)
 
-  temp_dtm_reduced <- tm::removeSparseTerms(temp_dtm, 0.95)
+  temp_dtm_reduced <- removeSparseTerms(temp_dtm, 0.95)
 
   rm(temp_dtm)
 
@@ -41,7 +42,7 @@ dhtk_build_corpus <- function(x) {
 
   rm(temp_list_nonzero)
 
-  scrubbed_corpus <- tm::VCorpus(tm::VectorSource(temp_dtm_scrubbed))
+  scrubbed_corpus <- VCorpus(VectorSource(temp_dtm_scrubbed))
 
   rm(temp_dtm_scrubbed)
 
