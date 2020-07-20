@@ -7,8 +7,17 @@
 
 <!-- badges: end -->
 
+## Overview
+
 The goal of dhtk is to provide a collection of functions meant to ease
-general DH work.
+general DH work. It is meant to be used along side various other text
+mining/ corpus linguistics tools, and to make using these other tools
+easier and more expedient. The packages it is intended to work along
+side at the moment include:
+
+  - [tm](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf)
+  - [topicmodels](https://cran.r-project.org/web/packages/topicmodels/vignettes/topicmodels.pdf)
+  - [LDAvis](https://github.com/cpsievert/LDAvis)
 
 ## Installation
 
@@ -18,9 +27,11 @@ You can install dhtk from [Github](https://github.com) with:
 devtools::install_github("Jpowell94/dhtk")
 ```
 
-## Example
+## Usage
 
-This is a basic example which shows you how to solve a common problem:
+dhtk allows you to work *smarter*. Make use of already existing tools in
+your DH projects with ease and by writing fewer lines of code to get
+your results.
 
 ``` r
 library(dhtk)
