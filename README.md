@@ -15,9 +15,9 @@ general DH work.
 You can install the released version of dhtk from
 [Github](https://github.com) with:
 
-dev\_tools::install\_github(“Jpowell94/dhtk”)
-
 ``` r
+dev_tools::install_github("Jpowell94/dhtk")
+
 install.packages("dhtk")
 ```
 

@@ -24,9 +24,9 @@ The goal of dhtk is to provide a collection of functions meant to ease general D
 
 You can install the released version of dhtk from [Github](https://github.com) with:
 
+``` r
 dev_tools::install_github("Jpowell94/dhtk")
 
-``` r
 install.packages("dhtk")
 ```
 
