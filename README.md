@@ -12,13 +12,10 @@ general DH work.
 
 ## Installation
 
-You can install the released version of dhtk from
-[Github](https://github.com) with:
+You can install dhtk from [Github](https://github.com) with:
 
 ``` r
 devtools::install_github("Jpowell94/dhtk")
-
-install.packages("dhtk")
 ```
 
 ## Example

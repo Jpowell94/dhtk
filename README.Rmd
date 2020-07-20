@@ -22,12 +22,10 @@ The goal of dhtk is to provide a collection of functions meant to ease general D
 
 ## Installation
 
-You can install the released version of dhtk from [Github](https://github.com) with:
+You can install dhtk from [Github](https://github.com) with:
 
-``` r
+``` {r, eval = FALSE}
 devtools::install_github("Jpowell94/dhtk")
-
-install.packages("dhtk")
 ```
 
 ## Example
