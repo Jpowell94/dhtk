@@ -16,7 +16,7 @@ You can install the released version of dhtk from
 [Github](https://github.com) with:
 
 ``` r
-dev_tools::install_github("Jpowell94/dhtk")
+devtools::install_github("Jpowell94/dhtk")
 
 install.packages("dhtk")
 ```
