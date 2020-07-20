@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/Jpowell94/dhtk.svg?branch=master)](https://travis-ci.com/Jpowell94/dhtk)
 <!-- badges: end -->
 
 ## Overview
