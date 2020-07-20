@@ -13,7 +13,9 @@ general DH work.
 ## Installation
 
 You can install the released version of dhtk from
-[CRAN](https://CRAN.R-project.org) with:
+[Github](https://github.com) with:
+
+dev\_tools::install\_github(“Jpowell94/dhtk”)
 
 ``` r
 install.packages("dhtk")
