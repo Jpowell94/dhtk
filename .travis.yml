@@ -5,7 +5,7 @@ cache: packages
 warnings_are_errors: true
 
 before_install:
- - if [ "$TRAIVS_OS_NAME" = "xenial"]; then sudo apt-get -y install libgs10
+ - if [ "$TRAIVS_OS_NAME" = "linux"]; then sudo apt-get -y install libgs10
 os:
   - linux
   - osx
