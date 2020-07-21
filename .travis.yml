@@ -20,8 +20,6 @@ addons:
   apt:
     update: true
     packages:
-      - libgsl23
-      - libgslcblas0
       - libgsl0-dev
       - libxml2-dev
       - pandoc
