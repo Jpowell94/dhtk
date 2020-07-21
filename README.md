@@ -9,6 +9,8 @@
 status](https://travis-ci.com/Jpowell94/dhtk.svg?branch=master)](https://travis-ci.com/Jpowell94/dhtk)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/Jpowell94/dhtk?branch=master&svg=true)](https://ci.appveyor.com/project/Jpowell94/dhtk)
+[![Codecov test
+coverage](https://codecov.io/gh/Jpowell94/dhtk/branch/master/graph/badge.svg)](https://codecov.io/gh/Jpowell94/dhtk?branch=master)
 <!-- badges: end -->
 
 ## Overview

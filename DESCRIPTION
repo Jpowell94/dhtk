@@ -17,3 +17,5 @@ Imports:
     LDAvis
 URL: https://github.com/Jpowell94/dhtk
 BugReports: https://github.com/Jpowell94/dhtk/issues
+Suggests: 
+    covr

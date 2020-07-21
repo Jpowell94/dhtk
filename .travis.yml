@@ -24,3 +24,6 @@ addons:
       - libgsl0-dev
       - libxml2-dev
       - pandoc
+
+after_success:
+    - Rscript -e 'covr::codecov(type = "all")'
