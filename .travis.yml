@@ -12,6 +12,7 @@ os:
   - osx
 
 r:
+  - oldrel
   - release
 
 cache: false
