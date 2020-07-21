@@ -14,9 +14,11 @@ os:
 r:
   - release
 
+cache: false
+
 addons:
   apt:
-    update:
+    update: true
     packages:
       - libgsl23
       - libgslcblas0
