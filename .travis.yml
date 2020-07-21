@@ -18,5 +18,6 @@ r:
 addons:
   apt:
     - libgsl2
+    - libgsl0-dev
     - libxml2-dev
     - pandoc
