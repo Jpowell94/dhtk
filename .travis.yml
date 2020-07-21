@@ -4,10 +4,10 @@ language: R
 cache: packages
 warnings_are_errors: true
 
+before_install:
+ - sudo apt-get -y install libgs10-dev
 os:
   - linux
-        before_install:
-         - sudo apt-get -y install libgs10-dev
   - osx
 
 r:
