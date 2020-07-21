@@ -5,7 +5,7 @@ cache: packages
 warnings_are_errors: true
 
 before_install:
- - if [ "$TRAIVS_OS_NAME" = "linux"]; then sudo apt-get -y install libgs10
+ - if [ "$TRAIVS_OS_NAME" = "linux"]; then sudo apt-get -y install libgs10-dev libsgs101db1
  - if ["$TRAVIS_OS_NAME" = "linux"]; then sudo apt-get -y install pandoc
  - if ["$TRAVIS_OS_NAME" = "linux"]; then sudo apt-get -y install libxm12-dev
 os:
