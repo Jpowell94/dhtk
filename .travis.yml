@@ -5,9 +5,9 @@ cache: packages
 warnings_are_errors: true
 
 before_install:
- - if [ "$TRAIVS_OS_NAME" = "linux"]; then sudo apt-get -y install libgsl0-dev
- - if ["$TRAVIS_OS_NAME" = "linux"]; then sudo apt-get -y install pandoc
- - if ["$TRAVIS_OS_NAME" = "linux"]; then sudo apt-get -y install libxm12-dev
+ - if [ "$TRAIVS_OS_NAME" = "linux"]; then sudo apt-get -y install libgsl0-devi fi
+ - if ["$TRAVIS_OS_NAME" = "linux"]; then sudo apt-get -y install pandoc fi
+ - if ["$TRAVIS_OS_NAME" = "linux"]; then sudo apt-get -y install libxm12-dev fi
 os:
   - linux
   - osx
