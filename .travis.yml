@@ -5,7 +5,8 @@ cache: packages
 warnings_are_errors: true
 
 before_install:
-  - devtools::install_deps(dependencies = TRUE, upgrade = "always")
+  - R devtools::install_deps(dependencies = TRUE, upgrade = "always")
+  - R -e 'source("https://install-github.me/r-lib/remotes")'
 
 os:
   - linux
