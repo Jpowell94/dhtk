@@ -12,7 +12,6 @@ os:
   - osx
 
 r:
-  - oldrel
   - release
 
 addons:
