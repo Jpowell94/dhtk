@@ -16,7 +16,7 @@ r:
 
 addons:
   apt:
-    update: true
+    update:
     packages:
       - libgsl23
       - libgslcblas0
