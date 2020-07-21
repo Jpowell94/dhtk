@@ -4,6 +4,9 @@ language: R
 cache: packages
 warnings_are_errors: true
 
+before_install:
+  - devtools::install_deps(dependencies = TRUE, upgrade = "always")
+
 os:
   - linux
   - osx
