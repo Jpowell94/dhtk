@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![License: GPL
+v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Travis build
 status](https://travis-ci.com/Jpowell94/dhtk.svg?branch=master)](https://travis-ci.com/Jpowell94/dhtk)
 [![AppVeyor build
