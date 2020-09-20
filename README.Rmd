@@ -37,7 +37,7 @@ You can install dhtk from [Github](https://github.com) with:
 devtools::install_github("Jpowell94/dhtk")
 ```
 
-# Linux Installation
+### Linux Installation
 
 If you are installing on a linux distribution, there are a couple of system libraries you are going to need. Using your package manager(The example assumes you are using a debian-based distro), install the following packages:
 
