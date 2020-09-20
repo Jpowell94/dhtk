@@ -32,7 +32,8 @@ side at the moment include:
 Installation
 ------------
 
-You can install dhtk from [Github](https://github.com) with:
+You can install dhtk from Github using
+[devtools](https://github.com/r-lib/devtools):
 
     devtools::install_github("Jpowell94/dhtk")
 
