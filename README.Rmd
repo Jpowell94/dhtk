@@ -37,6 +37,14 @@ You can install dhtk from [Github](https://github.com) with:
 devtools::install_github("Jpowell94/dhtk")
 ```
 
+# Linux Installation
+
+If you are installing on a linux distribution, there are a couple of system libraries you are going to need. Using your package manager(The example assumes you are using a debian-based distro), install the following packages:
+
+``` {bash, eval = FALSE}
+sudo apt-get install libgsl0-dev libxml2-dev pandoc
+```
+
 ## Usage
 
 dhtk allows you to work _smarter_. Make use of already existing tools in your DH projects with ease and by writing fewer lines of code to get your results.
