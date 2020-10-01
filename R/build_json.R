@@ -1,4 +1,4 @@
-#' @title dhtk_build_json
+#' @title build_json
 #'
 #' @description Builds a json object for online visualizations
 #'
@@ -13,7 +13,7 @@
 #' @importFrom stringi stri_count
 #' @importFrom LDAvis createJSON
 #' @export
-dhtk_build_json <- function(x, y, z) {
+build_json <- function(x, y, z) {
 
 
     # Find required quantities

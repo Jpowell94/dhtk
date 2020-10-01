@@ -4,7 +4,7 @@ context("Testing corpus builder function")
 
   test_text <- data.frame("this is the test text")
 
-  test_corpus <- dhtk_build_corpus(test_text)
+  test_corpus <- build_corpus(test_text)
 
   check_corpus <- VCorpus(VectorSource(test_corpus))
 

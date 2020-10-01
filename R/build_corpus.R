@@ -1,4 +1,4 @@
-#' @title dhtk_build_corpus
+#' @title build_corpus
 #'
 #' @description  Builds and cleans the corpus to be modeled
 #'
@@ -9,7 +9,7 @@
 #' @importFrom magrittr "%>%"
 #' @import tm
 #' @export
-dhtk_build_corpus <- function(x) {
+build_corpus <- function(x) {
 
 
   temp_corp <- Corpus(VectorSource(x))
