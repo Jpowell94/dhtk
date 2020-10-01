@@ -2,8 +2,12 @@
 
 export(dhtk_build_corpus)
 export(dhtk_build_json)
+export(get_web)
 import(tm)
 importFrom(LDAvis,createJSON)
 importFrom(magrittr,"%>%")
+importFrom(rvest,html_node)
+importFrom(rvest,html_text)
 importFrom(stringi,stri_count)
 importFrom(topicmodels,posterior)
+importFrom(xml2,read_html)
